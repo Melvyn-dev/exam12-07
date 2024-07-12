@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family:'shadows-into-light';
+    src: url(../font/ShadowsIntoLight.ttf);
+
+}
+
+main{
+    background: #29347B;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 6%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    /* le border c'est pour m'aider */
+    border: 2px solid black;
+
+}
+
+#text {
+    margin-top: 3%;
+    font-weight: bolder;
+    
+}
+
+#text, p {
+    color: white;
+    text-align: center;
+    font-family: 'shadows-into-light', sans-serif ;
+    font-size: large;
+  
+}
+
+.jsp {
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    flex-wrap: wrap;  
+  
+}
+
+.img-ctn{
+    text-align: center; 
+    margin: 10px;
+}
+
+.img-ctn{
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    
+    width: 150px;
+    height: auto;
+}
